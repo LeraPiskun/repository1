@@ -1,0 +1,242 @@
+*{
+  margin: 0;
+}
+.body{
+  margin: 0 auto;
+}
+
+.a{
+  text-decoration: none;
+}
+.lk{
+  margin-left: 500px;
+}
+.header {
+ display: flex;
+top: -100px;
+left: 0;
+/* z-index: 10; */
+margin: 0 auto;
+ align-items: center;
+ width: 100%;
+ background: #ffffff;
+ height: 80px;
+}
+.header.fixed{
+position: fixed;
+transform: translateY(100px);
+box-shadow: 1px 1px 0px 1px rgb(226, 221, 221);
+}
+.IMA{
+  margin-left: 180px;
+  top: 100px;
+  right: -50px;
+  /* overflow: hidden; */
+}
+.nav_item{
+  margin: 0px 15px;
+  text-decoration: none;
+  color: #0173c1;
+  font-size: 18px;
+}
+/* -------------------------------------------------------------------------------*/
+.container{
+  width: 1200px;
+  background: #ffffff;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ } 
+ .container_grid{
+  display: grid;
+/* grid-template-columns: auto auto; */
+grid-template-columns:repeat(2, 1fr);
+gap: 20px;
+background-color: #ffffff;
+padding: 10px;
+width: 700px;
+
+}
+.container_grid> div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 0px 1px rgb(226, 221, 221);
+}
+.grid-container{
+  width: 500px;
+}
+.grid-item{
+  width: 325px;
+  height: 200px;
+  border-radius: 35px;
+}
+ .search_container{
+  background-color: rgba(0, 0, 0, 0.35);
+  /* opacity: 0.2; */
+  height: 100px;
+}
+ .search-check{
+  float: right;
+}
+.example{
+  text-decoration:none;
+  border-bottom: 1px dotted #ffffff;
+  color: #ffffff;
+}
+.button{
+  width: 70px;
+  height: 50px;
+  background:#337ab7;
+  border: #2e6da4;
+}
+.search-example{
+  color: #eaf6ff;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+.search_form{
+ height: 50px;
+ width: 1020px;
+}
+.search{
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 30px;
+}
+.pic{
+  
+bottom: -15px;
+   margin-right: -15px;
+  overflow: hidden;
+}
+  
+/* #f4f9fb  #eaf6ff  #c1e7d9 */
+
+/* .ove{
+  padding-left: 10px;
+  padding-top: 18px;
+  margin-left: 30px;
+  margin-bottom: -15px;
+  box-shadow: 1px 1px 0px 1px rgb(226, 221, 221);} */
+
+.ove{
+  background:#eaf6ff ;
+  width: 282px;
+  padding-left: 10px;
+  padding-top: 18px;
+  margin-left: 30px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 0px 1px rgb(226, 221, 221);}
+.ove:hover{
+  box-shadow: 0px 0px 3px rgb(195, 189, 189);} 
+
+.style{
+  font-family: 'Roboto', sans-serif;
+}
+.h3{
+  margin-left: 180px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+.popular{
+  text-decoration: none;
+  color: #0173c1;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+  font-size: 16px;
+  float: left;
+}
+.popular-item{
+  float: left;
+}
+/*-----------------------------------------------------------------> */
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 180px;
+
+
+}
+.item-arrow{
+  transform: scale(-1, 1); 
+  margin-left: 30px;
+  width: 20px;
+  height: 20px;
+}
+.widget__item{
+  display: flex;
+
+}
+.one:hover{
+  box-shadow: 0px 0px 5px rgb(115, 111, 111);
+}
+.one{
+  display: flex;
+  /* margin-left: 30px; */
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  width: 380px;
+  height: 95px;
+  padding-left: 18px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 3px rgb(115, 111, 111);
+  margin: 30px 30px 30px 0px;
+}
+.News{
+  font-size: 18px;
+  margin: 0px 20px 20px 180px;
+}
+.news1{
+  text-decoration: none;
+}
+.information{
+  background: #E6ECEC;
+
+}
+.informat1{
+  display: inline-block;
+  /* margin-left: 50px;
+  margin-top: 50px; */
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  vertical-align: middle;
+}
+.informat{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.infor{
+  font-size: 14px;
+  color: #535b63;
+  text-decoration: none;
+  
+}
+.polz{
+  margin-left: 180px;
+  font-size: 30px;
+}
+.popular{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Portal{
+  margin: 30px 0px 30px 0px;
+  color: #535b63;
+}
+.but_news{
+  display: flex;
+  background-color: #0173c1;
+  border-radius: 4px;
+  width: 140px;
+  height: 55px;
+  color: #ffffff;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  
+}
